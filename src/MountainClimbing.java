@@ -1,6 +1,32 @@
 
 public class MountainClimbing {
 
+		//Post: Displays the peak value and returns true if arr is a mountain 
+	//      Returns false otherwise
+	public static boolean isMountain(int[] arr) {
+		//TODO
+
+		return false;
+	}
+	
+	//Post: Returns true if the array is increasing from indexes start to end 
+	//      and false otherwise
+	public static boolean isIncreasing(int[] arr, int start, int end) {
+		//TODO
+
+		return true;
+	}
+	
+	
+	//Post: Returns true if the array is decreasing from indexes start to end 
+	//      and false otherwise
+	public static boolean isDecreasing(int[] arr, int start, int end) {
+		//TODO
+
+		return true;
+	}
+	
+
 	public static void main(String[] args) {
 		int[] test1 = {1, 2, 4, 5, 3, 0};
 		int[] test2 = {-5, 2, 3, 6, 11, 0};
@@ -35,31 +61,6 @@ public class MountainClimbing {
 		
 
 	}
-	
-	
-	//Post: Displays the peak value and returns true if arr is a mountain 
-	//      Returns false otherwise
-	public static boolean isMountain(int[] arr) {
-		//TODO
-
-		return false;
-	}
-	
-	//Post: Returns true if the array is increasing from indexes start to end 
-	//      and false otherwise
-	public static boolean isIncreasing(int[] arr, int start, int end) {
-		//TODO
-
-		return true;
-	}
-	
-	
-	//Post: Returns true if the array is decreasing from indexes start to end 
-	//      and false otherwise
-	public static boolean isDecreasing(int[] arr, int start, int end) {
-		//TODO
-
-		return true;
-	}
 
 }
+

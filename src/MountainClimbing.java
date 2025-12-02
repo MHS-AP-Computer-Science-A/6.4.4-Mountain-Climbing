@@ -40,11 +40,11 @@ public class MountainClimbing {
 		
 		//Test isIncreasing
 		System.out.println("isIncreasing(test1, 0, 3) should return true and returns " + isIncreasing(test1, 0, 3));
-		System.out.println("isIncreasing(test1, 1, 4) should return false and returns " + isIncreasing(test1, 1, 4) + "\n\n");
+		System.out.println("isIncreasing(test4, 0, 3) should return false and returns " + isIncreasing(test4, 0, 3) + "\n\n");
 		
 		//Test isDecreasing
 		System.out.println("isDecreasing(test1, 3, 5) should return true and returns " + isDecreasing(test1, 3, 5));
-		System.out.println("isDecreasing(test1, 2, 5) should return false and returns " + isDecreasing(test1, 2, 5) + "\n\n");
+		System.out.println("isDecreasing(test6, 2, 5) should return false and returns " + isDecreasing(test6, 2, 5) + "\n\n");
 		
 		
 		
@@ -63,4 +63,5 @@ public class MountainClimbing {
 	}
 
 }
+
 

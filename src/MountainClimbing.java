@@ -2,7 +2,7 @@
 public class MountainClimbing {
 
 		//Post: Displays the peak value and returns true if arr is a mountain 
-	//      Returns false otherwise
+	    //      Returns false otherwise
 	public static boolean isMountain(int[] arr) {
 		//TODO
 
@@ -63,5 +63,6 @@ public class MountainClimbing {
 	}
 
 }
+
 
 
